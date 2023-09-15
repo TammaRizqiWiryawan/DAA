@@ -1,0 +1,532 @@
+1.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+MahasiswaList=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+print(MahasiswaList)
+Jawaban:
+['Tamma Rizqi Wiryawan', 2022071013, 'INFORMATIKA', 'DAA', '2023-09-15', 'Universitas Pembangunan Jaya']
+
+2.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[0]
+  Jawaban:
+Red
+
+3.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[1]
+Jawaban:
+  Green
+
+4.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[2]
+Jawaban:
+  Blue
+
+5.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[3]
+    Jawaban:
+  Yellow
+
+  6.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[4]
+
+  IndexError                                Traceback (most recent call last)
+<ipython-input-24-f7e4cb7f4857> in <cell line: 2>()
+      1 bin_colors=["Red","Green","Blue","Yellow"]
+----> 2 bin_colors[4]
+
+IndexError: list index out of range
+
+  7.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+bin_Mahasiswa=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+bin_Mahasiswa[0]
+  Jawaban:
+
+  Tamma Rizqi Wiryawan
+
+  8.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+bin_Mahasiswa=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+bin_Mahasiswa[1]
+  Jawaban:
+
+  2022071013
+
+  9.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+bin_Mahasiswa=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+bin_Mahasiswa[2]
+Jawaban:
+
+  INFORMATIKA
+
+  10.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+bin_Mahasiswa=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+bin_Mahasiswa[3]
+Jawaban:
+  DAA
+
+  11.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+bin_Mahasiswa=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+bin_Mahasiswa[4]
+    
+Jawaban:
+  2023-09-13
+
+  12.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+bin_Mahasiswa=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+bin_Mahasiswa[5]
+
+    Jawaban:
+  Universitas Pembangunan Jaya
+
+  13.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[0:2]
+    Jawaban:
+
+  ['Red', 'Green']
+
+  14.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[1:2]
+    Jawaban:
+['Green']
+
+  15.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[1:3]
+Jawaban:
+  ['Green', 'Blue']
+
+  16.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[1:4]
+Jawaban:
+  ['Green', 'Blue', 'Yellow']
+
+  17.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[2:3]
+Jawaban:
+  ['Blue']
+
+  18.
+  bin_colors=["Red","Green","Blue","Yellow"]
+bin_colors[2:4]
+Jawaban:
+  ['Blue', 'Yellow']
+
+  19.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+bin_Mahasiswa=["Tamma Rizqi Wiryawan", 2022071013, "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+bin_Mahasiswa[1:3]
+  Jawaban:
+[2022071013, 'INFORMATIKA']
+
+  20.
+  bin_colors=["Red","Green","Blue","Yellow"]
+for aColor in bin_colors:
+  print(aColor  +  " Square")
+Jawaban:
+  Red Square
+Green Square
+Blue Square
+Yellow Square
+
+  21.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+MahasiswaList=["Tamma Rizqi Wiryawan", "2022071013" , "INFORMATIKA", "DAA", str(tanggal) ,"Universitas Pembangunan Jaya"]
+for aMahasiswa in MahasiswaList:
+  print(aMahasiswa + " Square")
+Jawaban:
+  Tamma Rizqi Wiryawan Square
+2022071013 Square
+INFORMATIKA Square
+DAA Square
+2023-09-13 Square
+Universitas Pembangunan Jaya Square
+
+  22.
+  import numpy as np
+import datetime
+tanggal= datetime.date.today()
+
+MahasiswaList=["Tamma Rizqi Wiryawan", "2022071013", "INFORMATIKA", "DAA", str(tanggal),"Universitas Pembangunan Jaya"]
+for aMahasiswa in MahasiswaList:
+  print("UPJ " + aMahasiswa)
+Jawaban:
+  UPJ Tamma Rizqi Wiryawan
+UPJ 2022071013
+UPJ INFORMATIKA
+UPJ DAA
+UPJ 2023-09-13
+UPJ Universitas Pembangunan Jaya
+
+  23.
+  bin_colors=("Red","Green","Blue","Yellow")
+bin_colors[1]
+Jawaban:
+  Green
+  
+24.
+  bin_colors=("Red","Green","Blue","Yellow")
+
+bin_colors[2:]
+Jawaban:
+  ('Blue', 'Yellow')
+
+  25.
+  bin_colors=("Red","Green","Blue","Yellow")
+
+bin_colors[3:]
+Jawaban:
+  ('Yellow',)
+
+  26.
+  upj=("Universitas","Pembangunan","Jaya")
+upj[0:]
+Jawaban:
+  ('Universitas', 'Pembangunan', 'Jaya')
+
+  27.
+  hariAwal=("Senin","Selasa","Rabu")
+hariAkhir=("Kamis","Jumat","Sabtu")
+
+hari=(hariAwal,hariAkhir)
+print(hari)
+Jawaban:
+  (('Senin', 'Selasa', 'Rabu'), ('Kamis', 'Jumat', 'Sabtu'))
+
+  28.
+  nilaiPertama=(100)
+nilaiKedua=(200,400,600)
+nilaiKetiga=(300)
+nilaiKeempat=(400,800)
+
+print(nilai)
+
+print(nilai)
+  Jawaban:
+(100, (200, 400, 600), 300, (400, 800))
+
+  29.
+  bin_colors={
+"manual_color":"Yellow",
+"approved_color":"Green",
+"refused_color":"Red",
+}
+print(bin_colors)
+Jawaban:
+  {'manual_color': 'Yellow', 'approved_color': 'Green', 'refused_color': 'Red'}
+
+30.
+  bin_colors={
+"Nama":"Tamma Rizqi Wiryawan",
+"NIM":"2022071013",
+"Prodi":"INFORMATIKA",
+"Universitas":"UPJ"
+}
+print(bin_colors)
+Jawaban:
+  {'Nama': 'Tamma Rizqi Wiryawan', 'NIM': '2022071013', 'Prodi': 'INFORMATIKA', 'Universitas': 'UPJ'}
+
+31.
+  green = {'grass', 'leaves'}
+print(green)
+{'grass', 'leaves'}
+
+
+green = {'grass', 'leaves'}
+print(green)
+{'grass', 'leaves'}
+
+Jawaban:
+{'leaves', 'grass'}
+{'grass', 'leaves'}
+
+32.
+  #Inisiasi Set
+set_01 = {4,5,6,2}
+print(set_01)
+
+#inisiasi mengubah list menjadi set
+set_02 = set()
+set_03 = set([2,1,4,3])
+print(type(set_02))
+print(set_03)
+Jawaban:
+  {2, 4, 5, 6}
+<class 'set'>
+{1, 2, 3, 4}
+
+33.
+  set_01 = {4,5,6,2}
+print(set_03[1])
+
+  TypeError                                 Traceback (most recent call last)
+<ipython-input-12-5cfe20853422> in <cell line: 2>()
+      1 set_01 = {4,5,6,2}
+----> 2 print(set_03[1])
+
+TypeError: 'set' object is not subscriptable
+
+  34.
+  set_04 = {2,3,4,5,6}
+set_04.add(1)
+print(set_04)
+Jawaban:
+  {1, 2, 3, 4, 5, 6}
+
+35.
+  set_04= {1, 2, 3, 4, 5, 6, 7, 8}
+set_04.discard(4)#hapus nilai 4
+print(set_04)
+
+set_04.add(10) #menambahkan nilai 10
+print(set_04)
+{1, 2, 3, 5, 6, 7, 8, 10}
+Jawaban:
+{1, 2, 3, 5, 6, 7, 8}
+{1, 2, 3, 5, 6, 7, 8, 10}
+{1, 2, 3, 5, 6, 7, 8, 10}
+
+36.
+  set_A = {1,2,3,4}
+set_B = {3,4,5,6}
+print(set_A|set_B)
+print(set_A.union(set_B))
+Jawaban:
+  {1, 2, 3, 4, 5, 6}
+{1, 2, 3, 4, 5, 6}
+
+37.
+  print(set_A & set_B)
+print(set_A.intersection(set_B))
+Jawaban:
+  {3, 4}
+{3, 4}
+
+38.
+  print(set_A ^ set_B)
+print(set_A.symmetric_difference(set_B))
+Jawaban:
+  {1, 2, 5, 6}
+{1, 2, 5, 6}
+
+39.
+  # Membuat dua set yang berisi elemen-elemen yang diberikan
+yellow = {'dandelions', 'fire hydrant', 'blood', 'rose', 'leaves'}
+red = {'fire hydrant', 'blood', 'rose', 'leaves'}
+
+# Menggunakan operator '&' untuk menghitung irisan antara kedua set
+result = yellow & red
+
+# Menampilkan hasil irisan
+print(result)
+  Jawaban:
+
+  {'blood', 'rose', 'leaves', 'fire hydrant'}
+
+40.
+  import pandas as pd
+data = {
+    'satu' : [1,1,1,1,1],
+    'dua' : [2,2,2,2,2],
+    'tiga' : [3,3,3,3,3]
+}
+df=pd.DataFrame(data, index = ['a', 'b', 'c', 'd', 'e'])
+df.head()
+
+  Jawaban:
+
+  satu	dua	tiga
+a	1	2	3
+b	1	2	3
+c	1	2	3
+d	1	2	3
+e	1	2	3
+
+  41.
+  import pandas as pd
+df = pd.DataFrame([
+['1', 'Fares', 32, True],
+['2', 'Elena', 23, False],
+['3', 'Steven', 40, True]])
+
+
+  42.
+  import pandas as pd
+mhs = ([
+    ['1', 'Informatika', 50, 30, 20 ],
+    ['2', 'Sistem Informasi', 55, 30, 25  ],
+    ['3', 'Teknik Sipil', 40, 30, 10]]
+)
+df = pd.DataFrame(mhs)
+df.columns =['No', 'Prodi', 'Mahasiswa', 'laki-laki', 'perempuan']
+print(df)
+print(df.columns)
+
+  Jawaban:
+       No             Prodi  Mahasiswa  laki-laki  perempuan
+0  1       Informatika         50         30         20
+1  2  Sistem Informasi         55         30         25
+2  3      Teknik Sipil         40         30         10
+Index(['No', 'Prodi', 'Mahasiswa', 'laki-laki', 'perempuan'], dtype='object')
+
+  43.
+  import numpy as np
+matriksC = np.array ([[100, 200, 300],[700, 600, 500],[900, 1000, 800]])
+print("Matriks A : ")
+print(matriksC)
+
+transpose_matriks = np.transpose(matriksC)
+
+print("Tranpose Matriks A : ")
+print(transpose_matriks)
+  Jawaban:
+
+  Matriks A : 
+[[ 100  200  300]
+ [ 700  600  500]
+ [ 900 1000  800]]
+Tranpose Matriks A : 
+[[ 100  700  900]
+ [ 200  600 1000]
+ [ 300  500  800]]
+
+44.
+  import numpy as np
+matriksC = np.array ([[100, 200, 300],[700, 600, 500],[900, 1000, 800]])
+print("Matriks C : ")
+print(matriksC)
+
+transpose_matriks = np.transpose(matriksC)
+
+print("Tranpose Matriks C : ")
+print(transpose_matriks)
+  Jawaban:
+
+  Matriks C : 
+[[ 100  200  300]
+ [ 700  600  500]
+ [ 900 1000  800]]
+Tranpose Matriks C : 
+[[ 100  700  900]
+ [ 200  600 1000]
+ [ 300  500  800]]
+
+45.
+  myVector = [22,33,44,55]
+print(myVector)
+[22,33,44,55]
+print(type(myVector))
+  
+Jawaban:
+  [22, 33, 44, 55]
+<class 'list'>
+
+  46.
+  myVector = np.array([22,33,44,55])
+print(myVector)
+[22,33,44,55]
+print(type(myVector))
+  Jawaban:
+
+  [22 33 44 55]
+<class 'numpy.ndarray'>
+
+  47.
+  
+class stack :
+    def _init_(self):
+        self.items = []
+    def isEmpety(self):
+        return self.items==[]
+    def push(self, items):
+        self.items.appends(item)
+    def pop(self):
+        return self.items.pop()
+    def peek(self):
+        return self.item[len(self.items)-1]
+    def size(self):
+        return len(self.items)
+
+  48.
+    class Queue(object):
+  def __init__(self) :
+    self.items = []
+    def isEmpty(self):
+      return self.items == []
+      def enqueue(self, item):
+        self.items.insert(0,item)
+        def dequeue(self):
+          return self.items.pop()
+          def size(self):
+            return len(self.items)
+
+    49.
+      class Node:
+    def __init__(self,data):
+        self.left = None
+        self.right = None
+        self.data = data
+    def PrintTree(self):
+        if self.left:
+            self.left.PrintTree()
+        print( self.data),
+        if self.right:
+            self.right.PrintTree()
+
+      50.
+        root = Node(2)#root
+root.left = Node(3) #child kiri dari root
+root.right = Node(5) #child kanan dari root
+root.left.left = Node(7) #child kiri dari 3
+root.left.right = Node(9) #child kanan dari 3
+root.right.left = Node(11) #child kiri dari 5
+root.right.right = Node(13) #child kanan dari 5
+root.PrintTree()
+
+Jawaban:
+7
+3
+9
+2
+11
+5
+13
